@@ -1,3 +1,7 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 body{
     background-color: blueviolet;
     display: flex;
@@ -29,4 +33,20 @@ body{
     font-weight: 600;
     color: red;
     font-size: 30px;
+}
+
+.item{
+    color: red;
+    cursor: pointer;
+}
+
+.item:hover{
+    border: 1px solid black;
+    color: rgb(255, 184, 184);
+    transition: ease;
+    transform: translateY(-2px);
+}
+
+.item:active{
+    color:white
 }
